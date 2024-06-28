@@ -1,0 +1,31 @@
+### Cadastro de Tarefa para Usuário Específico
+POST http://localhost:5284/api/tarefas/cadastrar/e823ddde-d3ad-49fa-ac7b-92fd72a823f6
+Content-Type: application/json
+
+{
+    "nome": "Limpeza",
+    "descricao": "Limpar cozinha",
+    "prazo": 1 ,
+    "categoria": "Domestico"
+}
+
+### Listagem de Tarefas
+GET http://localhost:5284/api/tarefas/listar
+
+### Buscar Tarefa por ID
+GET http://localhost:5284/api/tarefas/buscar/8281bdff-791e-4527-a354-837523ccc1e2
+
+
+### Deletar Tarefa por ID
+DELETE http://localhost:5284/api/tarefas/deletar/8281bdff-791e-4527-a354-837523ccc1e2
+
+### Alterar Tarefa por ID
+PUT http://localhost:5284/api/tarefas/alterar/d089c921-212c-4bdd-afb9-9f05e3717c44
+Content-Type: application/json
+
+{
+    "nome": "Novo nome da tarefa",
+    "descricao": "Nova descrição da tarefa",
+    "prazo": 7,
+    "categoria": "Nova categoria da tarefa"
+}
