@@ -8057,11 +8057,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\felip\\Documents\\GerenciadorTarefas\\API\\GerenciadorTarefas\\GerenciadorTarefas.csproj",
+      "projectUniqueName": "C:\\Users\\felip\\Documents\\ProvaFinalSegundaNoite\\API\\GerenciadorTarefas\\GerenciadorTarefas.csproj",
       "projectName": "GerenciadorTarefas",
-      "projectPath": "C:\\Users\\felip\\Documents\\GerenciadorTarefas\\API\\GerenciadorTarefas\\GerenciadorTarefas.csproj",
+      "projectPath": "C:\\Users\\felip\\Documents\\ProvaFinalSegundaNoite\\API\\GerenciadorTarefas\\GerenciadorTarefas.csproj",
       "packagesPath": "C:\\Users\\felip\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\felip\\Documents\\GerenciadorTarefas\\API\\GerenciadorTarefas\\obj\\",
+      "outputPath": "C:\\Users\\felip\\Documents\\ProvaFinalSegundaNoite\\API\\GerenciadorTarefas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\felip\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,22 +1,22 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace GerenciadorTarefas.Models
+namespace IMCCalculator.Models
 {
     public class Usuario
     {
-        public Usuario(string nome, int idade)
+        public Usuario(string nome, DateTime dataDeNascimento)
         {
             Id = Guid.NewGuid().ToString();
             Nome = nome;
-            Idade = idade;
+            DataDeNascimento = dataDeNascimento;
         }
 
         public string Id { get; set; }
 
-        [Required(ErrorMessage = "O campo Nome e obrigatorio.")]
+        [Required(ErrorMessage = "O campo Nome é obrigatório.")]
         public string Nome { get; set; }
 
-        [Range(0, 100, ErrorMessage = "A idade deve estar entre 0 e 100.")]
-        public int Idade { get; set; }
+        [Required(ErrorMessage = "O campo Data de Nascimento é obrigatório.")]
+        public DateTime DataDeNascimento { get; set; }
     }
 }

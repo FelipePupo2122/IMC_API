@@ -4,23 +4,23 @@ Content-Type: application/json
 
 {
     "nome": "Alice",
-    "idade": 21
+    "dataDeNascimento": "2000-01-01"
 }
 
 ### Listagem de Usuários
 GET http://localhost:5284/api/usuarios/listar
 
 ### Buscar Usuário por ID
-GET http://localhost:5284/api/usuarios/buscar/84b822ef-a217-4f3a-ae16-f5cfce885947
+GET http://localhost:5284/api/usuarios/buscar/c02ad106-80fd-47e7-989c-ce6bf1ac0ce0
 
 ### Deletar Usuário por ID
-DELETE http://localhost:5284/api/usuarios/deletar/baa15599-e074-4dbc-9480-654ee8346a72
+DELETE http://localhost:5284/api/usuarios/deletar/bb74e549-9cfc-44ac-bf2a-780fd8687e20
 
 ### Alterar Usuário por ID
-PUT http://localhost:5284/api/usuarios/alterar/aeade0b7-c86f-45b3-af6c-2be84087cb27ssssssss
+PUT http://localhost:5284/api/usuarios/alterar/c02ad106-80fd-47e7-989c-ce6bf1ac0ce0
 Content-Type: application/json
 
 {
-    "nome": "Ygor",
-    "idade": 22
+    "nome": "Felipe",
+    "dataDeNascimento": "1998-05-23"
 }

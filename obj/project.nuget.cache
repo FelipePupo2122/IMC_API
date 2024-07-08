@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pH74L4+EMPp5yKLjm1m644YtZi43wGTzzaQxWBWhJkyUiZ9Pt9XOA6sEniMfHtyEvpdDYYPgEW1//w1+d5JuBg==",
+  "dgSpecHash": "+VYv1vZb6U1PUhFTYPPjvjy0HqNGgcNHtApjAro0wfhIvDBh6dzlQrV+MyLrk7dANZVTrj5GHthaVrtd13/3tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\felip\\Documents\\GerenciadorTarefas\\API\\GerenciadorTarefas\\GerenciadorTarefas.csproj",
+  "projectFilePath": "C:\\Users\\felip\\Documents\\ProvaFinalSegundaNoite\\API\\GerenciadorTarefas\\GerenciadorTarefas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\felip\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\felip\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

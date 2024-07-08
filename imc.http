@@ -1,0 +1,26 @@
+### Cadastro de IMC para Usuário Específico
+POST http://localhost:5284/api/imcs/cadastrar/7a8db3f4-9dda-4ac6-9266-3e2128048b79
+Content-Type: application/json
+
+{
+    "altura": 1.75,
+    "peso": 70
+}
+
+### Listagem de IMCs
+GET http://localhost:5284/api/imcs/listar
+
+### Buscar IMC por ID
+GET http://localhost:5284/api/imcs/buscar/34f2e35e-050e-4a27-afc2-f2a97a4a6e59
+
+### Deletar IMC por ID
+DELETE http://localhost:5284/api/imcs/deletar/{id}
+
+### Alterar IMC por ID
+PUT http://localhost:5284/api/imcs/alterar/34f2e35e-050e-4a27-afc2-f2a97a4a6e59
+Content-Type: application/json
+
+{
+    "altura": 1.80,
+    "peso": 75
+}
